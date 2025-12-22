@@ -1,0 +1,147 @@
+# GestureCanvas / 手势画板
+
+![Python](https://img.shields.io/badge/Python-3.7+-blue?logo=python)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green?logo=opencv)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-✓-orange?logo=google)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+[English](#english) | [中文](#中文)
+
+---
+
+## English
+
+An intelligent computer vision system that enables **air drawing** and **mouse control** using hand gestures captured via a webcam. No physical devices required!
+
+### ✨ Features
+
+*   **Dual Mode Operation**: Switch seamlessly between drawing and mouse control with a single key press.
+*   **Air Drawing**: Draw in the air by pinching your thumb and index finger together.
+*   **Gesture-Controlled Mouse**: Move the cursor and click by gesturing.
+*   **Intelligent Gesture Recognition**:
+    *   **Pinch**: Draw or Click (Distance < 35px)
+    *   **Open Hand**: Preview cursor or Move mouse
+    *   **Fist**: Clear canvas instantly
+*   **Real-time Visual Feedback**: On-screen indicators for mode, status, and cursor position.
+*   **Smoothing Algorithms**: Advanced filters for jitter-free mouse movement.
+
+### 🎮 Quick Demo (GIF Placeholder)
+
+*(You can replace this with an actual `demo.gif` later)*
+> ![GestureCanvas Demo](https://via.placeholder.com/800x450/4a7b9d/FFFFFF?text=Demo+GIF+Placeholder+-+Pinch+to+draw%2C+Fist+to+clear)
+
+### 🚀 Getting Started
+
+#### Prerequisites
+*   Python 3.7+
+*   A webcam
+
+#### Installation
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/GestureCanvas.git
+    cd GestureCanvas
+    ```
+2.  **Install dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+#### Usage
+1.  Run the application:
+    ```bash
+    python main.py
+    ```
+2.  **Controls**:
+    *   `SPACE`: Toggle between **Draw Mode** and **Mouse Mode**.
+    *   `c`: Clear the canvas (Draw Mode only).
+    *   `q`: Quit the application.
+3.  Follow the on-screen instructions and gesture guides.
+
+### 🛠️ Technology Stack
+
+*   **Computer Vision**: [OpenCV](https://opencv.org/) for video processing.
+*   **Gesture Recognition**: [Google MediaPipe](https://mediapipe.dev/) for robust hand landmark detection.
+*   **GUI Automation**: [PyAutoGUI](https://pyautogui.readthedocs.io/) for system mouse control.
+*   **Core Libraries**: NumPy, Math.
+
+### 📁 Project Structure
+
+
+### 🤝 Contributing
+Contributions are welcome! Feel free to open an **Issue** or submit a **Pull Request**.
+
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
+
+### 📄 License
+Distributed under the **MIT License**. See `LICENSE` file for more information.
+
+### 🙏 Acknowledgments
+*   [Google MediaPipe](https://mediapipe.dev/) for the incredible hand tracking solution.
+*   The OpenCV community.
+*   All contributors and users.
+
+---
+---
+
+## 中文
+
+一个基于计算机视觉的智能手势交互系统，通过摄像头识别手势，实现**空中绘画**和**鼠标控制**。无需任何外接硬件！
+
+### ✨ 核心功能
+
+*   **双模式操作**：一键切换**绘画模式**与**鼠标模式**。
+*   **空中绘画**：捏合拇指和食指即可在空中作画。
+*   **手势控制鼠标**：通过手势移动光标并点击。
+*   **智能手势识别**：
+    *   **捏合**：绘制或点击（距离 < 35像素）
+    *   **张开手掌**：预览画笔位置或移动鼠标
+    *   **握拳**：瞬间清空画布
+*   **实时视觉反馈**：屏幕实时显示模式、状态和光标位置。
+*   **平滑算法**：先进的滤波算法，确保鼠标移动流畅无抖动。
+
+### 🎮 效果演示（GIF占位符）
+
+*(之后你可以用真实的 `demo.gif` 文件替换这里)*
+> ![手势画板演示](https://via.placeholder.com/800x450/4a7b9d/FFFFFF?text=演示GIF占位符+-+捏合绘画，握拳清除)
+
+### 🚀 快速开始
+
+#### 环境准备
+*   Python 3.7 或更高版本
+*   一个可用的摄像头
+
+#### 安装步骤
+1.  **克隆本仓库**
+    ```bash
+    git clone https://github.com/你的用户名/GestureCanvas.git
+    cd GestureCanvas
+    ```
+2.  **安装项目依赖**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+#### 使用说明
+1.  运行主程序：
+    ```bash
+    python main.py
+    ```
+2.  **按键控制**：
+    *   `空格键`：在**绘画模式**和**鼠标模式**之间切换。
+    *   `c` 键：清空画布（仅在绘画模式下有效）。
+    *   `q` 键：退出程序。
+3.  遵循屏幕上的指示和手势引导进行操作。
+
+### 🛠️ 技术栈
+
+*   **计算机视觉**：[OpenCV](https://opencv.org/) 用于视频流处理。
+*   **手势识别**：[Google MediaPipe](https://mediapipe.dev/) 提供高精度手部关键点检测。
+*   **系统控制**：[PyAutoGUI](https://pyautogui.readthedocs.io/) 实现跨平台的鼠标控制。
+*   **核心库**：NumPy, Math。
+
+### 📁 项目结构
