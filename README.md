@@ -1,4 +1,5 @@
 提示：这只是个小学生的作品，漏洞有点多，有问题留言！谢！如果感觉项目不错，记得留下一颗star✨！
+
 Note: This is just an elementary school student's work, so there are quite a few flaws. Leave a comment if you find any issues! Thanks! If you think the project is good, remember to leave a star✨ ! There will be an English introduction later.
 
 一个基于计算机视觉的智能手势交互系统，通过摄像头识别手势，实现**空中绘画**和**鼠标控制**。无需任何外接硬件！
@@ -45,6 +46,7 @@ Note: This is just an elementary school student's work, so there are quite a few
 如果还不错的话，一定一定要给一颗star！！！这对我帮助很大！
 
 #######English###########
+
 An intelligent gesture interaction system based on computer vision that recognizes gestures through a camera, enabling **air drawing** and **mouse control**. No additional hardware required! (This translation is AI-generated, so it may not be entirely accurate. Please understand, thank you—I’m still young and my English isn’t very good.)
 
 ### ✨ Core Features
