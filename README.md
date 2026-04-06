@@ -1,3 +1,6 @@
+隔空操控你的电脑，不用任何硬件！
+Take control of your computer wirelessly without any hardware!！！！！！！！
+
 提示：这只是个小学生的作品，漏洞有点多，有问题留言！谢！如果感觉项目不错，记得留下一颗star✨！
 
 Note: This is just an elementary school student's work, so there are quite a few flaws. Leave a comment if you find any issues! Thanks! If you think the project is good, remember to leave a star✨ ! There will be an English introduction later.
